@@ -3,3 +3,6 @@ b = cash/cashflow_op;
 c = current_ratio;
 
 trade_when(a<=8.1, rank(exp(-ts_mean(a-log(b)-log(c),21))),-1)
+
+"""
+  SHARPE: 
