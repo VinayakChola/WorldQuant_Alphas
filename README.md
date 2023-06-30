@@ -9,3 +9,9 @@ Metrics Used to determine efficiency of alphas:
 5) DRAWDOWN: Drawdown is the largest reduction in PnL during a given period, expressed as a percentage
 6) MARGIN: Average gain or loss per dollar traded; calculated as PnL divided by total dollars traded in a given time period
 
+Other Key Terms:
+1) UNIVERSE: Subset of region based on liquidity; smaller universes are more liquid
+2) NEUTRALIZATION: Adjust alpha weights such that they sum to zero within each group of the selected type
+3) DELAY: Delay=1 alphas trade in the morning using data from yesterday; Delay=0 alphas trade in the evening using data from today
+
+
