@@ -1,0 +1,19 @@
+a = fam_rpt_eps_rank*fam_est_eps_rank;
+ts_mean(log(a),56)
+
+"""
+  SHARPE: 1.33
+  TURNOVER: 2.29%
+  FITNESS: 1.27
+  RETURNS: 11.41%
+  DRAWDOWNS: 8.73%
+  MARGIN: 99.52%
+
+  UNIVERSE: TOP500
+  NEUTRALIZATION: Subindustry
+  DELAY: 1
+"""
+"""
+  fam_rpt_eps_rank: The classic ranked "value" measure based on reported EPS figures (backfilled)
+  fam_est_eps_rank: An earnings yield rank based on the consensus EPS estimate (backfilled)
+"""
