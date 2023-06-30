@@ -1,0 +1,17 @@
+trade_when(ts_mean(close,4)>=ts_mean(close,11),rank(log(fn_antidilutive_securities_excl_from_eps_a)),-1)
+
+"""
+  SHARPE: 2.00
+  TURNOVER: 1.60%
+  FITNESS: 1.67
+  RETURNS: 8.73%
+  DRAWDOWNS: 2.54%
+  MARGIN: 108.86%
+
+  UNIVERSE: TOP500
+  NEUTRALIZATION: Subindustry
+  DELAY: 0
+"""
+"""
+  fn_antidilutive_securities_excl_from_eps_a: Securities (including those issuable pursuant to contingent stock agreements) that could potentially dilute basic earnings per share (EPS) or earnings per unit (EPU) in the future that were not included in the computation of diluted EPS or EPU because to do so would increase EPS or EPU amounts or decrease loss per share or unit amounts for the period presented.
+"""
