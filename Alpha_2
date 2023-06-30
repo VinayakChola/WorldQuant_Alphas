@@ -1,0 +1,15 @@
+avg_volume_21 = ts_mean(volume,21);
+-ts_skewness(avg_volume_21,256)
+
+"""
+  SHARPE: 1.38
+  TURNOVER: 3.83%
+  FITNESS: 1.25
+  RETURNS: 10.31%
+  DRAWDOWNS: 9.02%
+  MARGIN: 53.79%
+
+  UNIVERSE: TOP200
+  NEUTRALIZATION: Sector
+  DELAY: 1
+"""
