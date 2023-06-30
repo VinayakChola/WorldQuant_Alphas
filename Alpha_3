@@ -1,0 +1,17 @@
+group_rank(trade_when(close>ts_delay(close,21),-ts_av_diff((mdf_eno),3500),-1),industry)
+
+"""
+  SHARPE: 2.12
+  TURNOVER: 1.71%
+  FITNESS: 1.71
+  RETURNS: 8.13%
+  DRAWDOWNS: 3.48%
+  MARGIN: 95.08%
+
+  UNIVERSE: TOP500
+  NEUTRALIZATION: Industry
+  DELAY: 1
+"""
+"""
+  mdf_eno: Normal 12 month earnings per share, which differ from reported earnings when the latter have been affected by non recurring or cyclical factors.
+"""
