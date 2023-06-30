@@ -1,0 +1,14 @@
+ trade_when(ts_mean(close,20)<ts_mean(close,5),rank(bookvalue_ps*-1),-1)
+
+"""
+  SHARPE: 1.30
+  TURNOVER: 3.01%
+  FITNESS: 1.15
+  RETURNS: 9.79%
+  DRAWDOWNS: 10.72%
+  MARGIN: 65.10%
+
+  UNIVERSE: TOP200
+  NEUTRALIZATION: Industry
+  DELAY: 1
+"""
