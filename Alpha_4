@@ -1,0 +1,18 @@
+oey_growth = ts_rank(mdf_oey, 131);
+oey_growth - group_mean(oey_growth, 5, subindustry)
+
+"""
+  SHARPE: 1.75
+  TURNOVER: 12.64%
+  FITNESS: 1.51
+  RETURNS: 9.41%
+  DRAWDOWNS: 3.62%
+  MARGIN: 14.88%
+
+  UNIVERSE: TOP500
+  NEUTRALIZATION: Market
+  DELAY: 1
+"""
+"""
+  mdf_oey: Operating earnings yield OEY real
+"""
