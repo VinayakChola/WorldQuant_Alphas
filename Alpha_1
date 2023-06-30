@@ -5,4 +5,14 @@ c = current_ratio;
 trade_when(a<=8.1, rank(exp(-ts_mean(a-log(b)-log(c),21))),-1)
 
 """
-  SHARPE: 
+  SHARPE: 1.71
+  TURNOVER: 3.47%
+  FITNESS: 1.51
+  RETURNS: 9.80%
+  DRAWDOWNS: 5.34%
+  MARGIN: 56.52%
+
+  UNIVERSE: TOP3000
+  NEUTRALIZATION: Subindustry
+  DELAY: 1
+"""
