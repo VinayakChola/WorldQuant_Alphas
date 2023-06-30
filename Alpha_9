@@ -1,0 +1,17 @@
+ts_ir(inventory_turnover-assets,599)
+
+"""
+  SHARPE: 1.55
+  TURNOVER: 2.64%
+  FITNESS: 1.05
+  RETURNS: 5.70%
+  DRAWDOWNS: 6.73%
+  MARGIN: 43.18%
+
+  UNIVERSE: TOP3000
+  NEUTRALIZATION: Industry
+  DELAY: 1
+"""
+"""
+  ts_ir: Information Ratio
+"""
