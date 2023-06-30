@@ -1,5 +1,5 @@
 # WorldQuant_Alphas
-Investment alphas, a concept from finance, measure an investment's risk-adjusted performance relative to a benchmark. A positive alpha indicates that the investment has outperformed the benchmark, while a negative alpha indicates underperformance.
+Investment alphas, a concept from finance, measure an investment's risk-adjusted performance relative to a benchmark. The aim is to determine how to distribute capital among a group of financial instruments. While doing this, we try to ensure we have a downside protection while maintaining some good returns.
 
 Metrics Used to determine efficiency of alphas:
 1) SHARPE: Average measure of risk-adjusted returns; Sharpe = Avg. Annualized Returns / Annualized Std. Dev. of Returns
