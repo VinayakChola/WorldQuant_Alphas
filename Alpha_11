@@ -1,0 +1,19 @@
+window = 14; 
+offset = 0.01;
+delta = ts_delta(vwap, 1);
+RS = ts_sum((delta>0 ? delta : 0), window) /ts_sum((delta<0 ?delta : 0), window) + offset;
+RSI = 100 - 100/RS ;
+hump_decay(RSI, p = 5, relative = False)
+
+"""
+  SHARPE: 1.63
+  TURNOVER: 34.44%
+  FITNESS: 1.01
+  RETURNS: 13.34%
+  DRAWDOWNS: 10.49%
+  MARGIN: 7.75%
+
+  UNIVERSE: TOP3000
+  NEUTRALIZATION: Subindustry
+  DELAY: 0
+"""
