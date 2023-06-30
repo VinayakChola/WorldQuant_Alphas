@@ -1,0 +1,19 @@
+group_rank(ts_regression(log(mdf_ccr/2),call_breakeven_1080,221,rettype=2),market)
+
+"""
+  SHARPE: 1.70
+  TURNOVER: 2.78%
+  FITNESS: 1.53
+  RETURNS: 10.13%
+  DRAWDOWNS: 8.42%
+  MARGIN: 72.81%
+
+  UNIVERSE: TOP200
+  NEUTRALIZATION: Sector
+  DELAY: 1
+"""
+"""
+  mdf_ccr: Current ratio
+  call_breakeven_1080: Price at which a stock's call options with expiration 1080 days in the future break even based on its recent bid/ask mean.
+  rettype=2: returns slope of the regression
+"""
