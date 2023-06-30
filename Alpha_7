@@ -1,0 +1,19 @@
+fam_alpha_pct*forward_price_10*fnd6_weburl
+
+"""
+  SHARPE: 1.48
+  TURNOVER: 2.19%
+  FITNESS: 3.04
+  RETURNS: 52.73%
+  DRAWDOWNS: 47.60%
+  MARGIN: 481.93%
+
+  UNIVERSE: TOP200
+  NEUTRALIZATION: None
+  DELAY: 1
+"""
+"""
+  fam_alpha_pct: % proprietary risk-corrected measure of each stock's price momentum
+  forward_price_10: Forward price at 10 days derived from a synthetic long option with payoff similar to long stock + option dynamics. combination of long ATM call, and short ATM put.
+  fnd6_weburl: WEB URL code for the company
+"""
