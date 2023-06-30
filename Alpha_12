@@ -1,0 +1,17 @@
+-ts_av_diff(mdf_qe2,1700)
+
+"""
+  SHARPE: 1.83
+  TURNOVER: 2.18%
+  FITNESS: 1.69
+  RETURNS: 10.67%
+  DRAWDOWNS: 7.67%
+  MARGIN: 98.08%
+
+  UNIVERSE: TOP500
+  NEUTRALIZATION: Subindustry
+  DELAY: 1
+"""
+"""
+  mdf_qe2: Quarterly operating EPS 5 qtrs. ago
+"""
